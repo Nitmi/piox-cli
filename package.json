@@ -1,0 +1,20 @@
+{
+  "name": "piox-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for quickly creating PlatformIO projects",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "piox": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
