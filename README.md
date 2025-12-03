@@ -26,12 +26,13 @@ piox <board_type> <project_name>
 
 ## 支持的开发板 (Supported Boards)
 
-| 快捷方式 (Shortcut) | PlatformIO 开发板 ID (Board ID) |
-| ------------------- | ------------------------------- |
-| `s3`                | `esp32-s3-devkitc-1`            |
-| `c3`                | `esp32-c3-devkitc-02`           |
-| `52840`             | `nrf52840_dk`                   |
-| `52832`             | `adafruit_feather_nrf52832`     |
+| 快捷方式 (Shortcut) | PlatformIO 开发板 ID (Board ID) | 备注 (Notes)                    |
+| ------------------- | ------------------------------- | ------------------------------- |
+| `s3`                | `esp32-s3-devkitc-1`            |                                 |
+| `c3`                | `esp32-c3-devkitc-02`           |                                 |
+| `52840`             | `nrf52840_dk`                   |                                 |
+| `52832`             | `adafruit_feather_nrf52832`     |                                 |
+| `h743`              | `weact_mini_h743vitx`           | 自动配置 ST-Link 调试和上传工具 |
 
 ## 示例 (Example)
 
