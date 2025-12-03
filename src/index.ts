@@ -16,8 +16,8 @@ const BOARDS = {
 
 const BOARD_OPTIONS: Record<string, string[]> = {
   h743: [
-    '--project-option=debug_tool = stlink',
-    '--project-option=upload_protocol = stlink'
+    '--project-option=debug_tool=stlink',
+    '--project-option=upload_protocol=stlink'
   ],
 };
 
